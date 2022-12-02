@@ -14,4 +14,8 @@ public class Classmate {
     private String name;
     @Column
     private String section;
+    @Column
+    private Integer age;
+    @Column
+    private boolean isActive;
 }
