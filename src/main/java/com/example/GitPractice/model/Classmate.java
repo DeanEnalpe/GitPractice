@@ -6,7 +6,7 @@ import lombok.Data;
 @Entity
 @Data
 public class Classmate {
-    private String firstName;
-    private String lastName;
-    private Integer age;
+    private Long id;
+    private String name;
+    private String section;
 }
